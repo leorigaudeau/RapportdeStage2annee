@@ -1,0 +1,493 @@
+/* ************************************Media********************************************************** */
+@media screen and (max-width: 871px) {
+    .extraipetit{
+        display: none;
+    }
+    .extraitDevise{
+        display:none;
+    }
+  }
+  @media screen and (max-width: 820px) {
+    .tothetop{
+        display:none
+    }
+    .imgacceuil{
+        display:none
+    }
+    .bandeauFM{
+        height:calc(50vh - 90px) !important;
+        background-size: cover !important;
+    }
+    .extraitHistoire{
+        font-size: 4.5rem !important;
+        font-family: 'Pacifico', cursive 
+    }
+    .bandeau{
+        height:calc(50vh - 90px) !important;
+    }
+    .titremisiion{
+        padding: 0 !important;
+    }
+    .bandeautechnique{
+        height:calc(50vh - 90px) !important;
+    }
+    .bandeauPK{
+        height:calc(50vh - 90px) !important;
+    }
+    .titrePK{
+    font-size: 2.5rem !important;
+    font-family: 'Pacifico', cursive !important;
+    padding: 5vh  !important;
+   }
+   .para{
+        font-family: 'Mina', sans-serif;
+        padding: 0 !important;
+        width: 100% !important;
+        font-size: 1.2rem !important;
+    }
+    .titrepara {
+        font-family: 'Yatra One', cursive !important;
+        width: 100% !important;
+        font-size: 2.5rem !important;
+        padding: 0 !important;
+    }
+    .right{
+        text-align: center !important;
+    }
+    
+    #top{
+        display: none;
+    }
+    
+  }
+
+/* ************************************global********************************************************** */
+.txt-align{
+    text-align: center;
+}
+
+.txt-black{
+    color:black !important;
+}
+.txt-tomato{
+    color:#E2231A;
+}
+.shadow{
+    box-shadow: 0 0 90px grey;
+}
+.shadowR{
+    box-shadow: 10px 0 0 #666; /* Pour ombre droite d'une étendue de 1em */
+}
+.shadowL{
+    box-shadow: -10px0 0 #666; /* Pour ombre droite d'une étendue de 1em */
+}
+
+p{
+    font-family: 'Mina', sans-serif;
+}
+section{
+    padding-top: 100px;
+}
+.padd{
+    padding: 15px !important;
+}
+.underline {
+    text-decoration: underline;
+}
+.marg{
+      margin: 20px !important;
+}
+
+.margT{
+    margin-top:100px;
+}
+.margTp{
+    margin-top:50px;
+}
+.overflowy{
+    overflow-y:hidden;
+}
+.right{
+    text-align: end;
+}
+.tleft{
+        text-align: left !important;
+        padding-left:10vw;
+}
+.borderR{
+    border-right: 1px solid black;
+}
+.rad{
+    border-radius: 25px;
+}
+.legende{
+    color:grey;
+    float:right;
+    font-size:0.6rem ;
+    }
+/* ************************************HOME********************************************************** */
+.imgacceuil{
+    width:100%;
+    height:100vh;
+    background-image: url(../img/image_site_Web/image5.jpg);
+    background-color: #003cf5;
+    background-size: cover;
+}
+.text-date{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 76vh;
+    padding-right: 27vw;
+    color: #ffff;
+    font-size: 2.5rem;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.text-title{
+    text-align: center;
+    margin-top: 30vh;
+    font-family: 'Raleway', sans-serif;
+}
+.text-name{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -ms-animation-delay: 0.2s;
+    -o-animation-delay: 0.2s;
+}
+
+.logo{
+    max-height: 150px;
+}
+
+.ynov{
+    max-width: 20vh;
+    margin-top: 50px
+}
+
+.FM{
+   
+    width: auto;
+}
+
+ .divbuttonhome{
+    text-align: center;
+    margin-top: 25vh;
+    margin-left: 25vw !important;
+}
+/*
+.buttonhome{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: #E2231A;
+    border:1px solid #E2231A;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow:1px 1px 4px dimgrey;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+.buttonhome:hover{
+    background-color: gainsboro;
+}
+.buttonhome:active{
+    background-color: #E2231A;
+    color: #ffff;
+    border:1px solid dimgrey;
+} */
+
+/* **************************************NAV******************************************************** */
+.navlogo{
+    background-color: #052f49;
+    height: 34px;
+    z-index: 999;
+    position: relative;
+}
+.navnav{
+    background-color: white;
+}
+.FMNav{
+    height :56px;
+    width : auto;
+    border-radius: 12px;
+}
+
+.tothetop{
+    padding-right: 30px;
+}
+.contBarNav{
+    background-color: whitesmoke;
+    
+}
+.barNav{
+
+}
+.onpage{
+    color: #052f49 ;
+    border-bottom: 3px solid #052f49;
+}
+
+.bandeauFM{
+    height:92vh ;
+    background-size: cover;
+
+}
+
+/* **************************************Bandeau History******************************************************** */
+.extraitHistoire{
+    width: 100vw;
+    color: white;
+    font-size: 3rem; 
+    font-family: 'Yatra One', cursive;
+    padding-top:9%;
+    margin :0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.extraipetit{
+    width: 50%;
+    margin: auto;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -ms-animation-delay: 0.2s;
+    -o-animation-delay: 0.2s;
+}
+.txtMore{
+    font-size: 5rem;
+    font-family: 'Pacifico', cursive;
+}
+.txt{
+    font-family: 'Yatra One', cursive !important;
+    font-size: 1.2rem;
+
+}
+/* **************************************History******************************************************** */
+.partiH{
+    padding: 0vw 5vw !important;
+}
+.iconshist{
+    text-align: center;
+    font-size: 5rem;
+    color: #052f49;
+
+}
+.none{
+    display: none;
+}
+.Hfleury{
+    padding-top: 0 !important;
+    margin-top: 100px;
+}
+.imgHfleury{
+    width: 100vw;
+    height: 72vh;
+    background-size: cover;
+    margin: 0
+
+}
+.extraitDevise{
+    text-align: center;
+    padding:10% 0% 10% 0%;
+    margin-left:3%; 
+    width: 50vw;
+    background-color: rgb(6, 48, 74,0.3);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.devise{
+    color: white;
+    font-size: 5rem; 
+    font-family: 'Pacifico', cursive;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+/* *************************************************************************** */
+.bandeauMission{
+    width: auto; 
+    height: calc(100vh - 90px);
+    background-size: cover;
+    margin: 0
+}
+.titremisiion{
+    font-size: 7rem;
+    font-family: 'Pacifico', cursive;
+    padding-top: 35vh ;
+}
+.imgmissi{
+    height: 30vh;
+    object-fit: cover;
+}
+.btn-categ{
+    margin-right:40px;
+    margin-bottom: 40px;
+    background-color: #f1f1f1;
+    color: grey;
+    border: 3px solid grey;
+}
+.btn-categ:hover{
+    background-color:#f1f1f1;
+    border: 2px solid grey;
+    box-shadow:  0 0 90px grey;
+}
+.btn-categ:focus{
+    background-color:#f1f1f1;
+    border: 2px solid grey;
+    box-shadow:  0 0 90px grey;
+}
+.btn-active{
+    margin-right:40px;
+    margin-bottom: 40px;
+    color: grey;
+    border: 2px solid grey;
+    box-shadow:  0 0 90px grey;
+}
+.back-grey{
+    background-color: #717989;
+}
+
+/* .linkcarte:hover{
+    
+}
+
+.Divcarte{
+    margin: 0 10px;
+    text-align: center;
+    background-color: #ffff;
+    border-top-left-radius: 6px; 
+    border-top-right-radius: 6px; 
+}
+
+.imgarticle{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 6px; 
+    border-top-right-radius: 6px; 
+
+}
+
+.txt-article{
+    padding:0 10px;
+    margin: 0;
+} */
+
+/* 
+.shadowF{
+    box-shadow: 0px 2px 2px grey;
+} */
+
+.card{
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -ms-animation-delay: 0.2s;
+    -o-animation-delay: 0.2s;
+}
+
+.INITGRANDcarte{
+    position: absolute;
+    width: 95vw;
+    height: 95vh;
+    text-align: center;
+    z-index: 999;
+
+}
+
+.INITGRANDimg{
+    width: 30vw !important;
+    height: auto !important;
+    margin: auto;
+}
+.INITGRANDtxt{
+    
+}
+.INTIGRANDlink{
+    
+}
+/* ********************************plus******************************************* */
+
+.bandeauPK{
+    width: auto; 
+    height: calc(100vh - 90px);
+    background-size: cover;
+    margin: 0;
+}
+.titrePK{
+    font-size: 7rem;
+    font-family: 'Pacifico', cursive;
+    padding: 25vh ;
+} 
+
+.titrepara{
+    font-family: 'Yatra One', cursive;
+    padding: 0 100px;
+    width: 100%;
+    font-size: 4.3
+}
+
+.para{
+    font-family: 'Mina', sans-serif;
+    padding: 0 100px;
+    width: 100%;
+    font-size: 1.2rem
+}
+
+.imgpara{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+object-fit: cover;
+}
+.icpara{
+    font-size: 5rem !important;
+    color: grey;
+    border-radius: 10px;
+    
+}
+
+/* ********************************tech******************************************* */
+
+.bandeautechnique{
+    width: auto; 
+    height: calc(100vh - 90px);
+    background-size: cover;
+    margin: 0;
+}
+.sectionsimi{
+    padding-bottom: 100px;
+}
+
+.imgsectiontech{
+    width: 20vw;
+}
+
+.imgpetit{
+    width: 100%;
+    padding: 20px;
+}
+.geant{
+    width: 100vw;
+    height: 100vh;
+}
+.legendeTech{
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+}
+.legendeTechP{
+    font-size: 1rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.position{
+    margin-top:16vh;
+    width:18vw; 
+}
+
+.paddingT{
+    padding:2.5vh 25vw !important;
+}

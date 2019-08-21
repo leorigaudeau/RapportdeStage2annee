@@ -1,0 +1,489 @@
+html body {
+  background: #717A89;
+}
+
+html body .background-profil {
+  background-position: center;
+  background-size: cover;
+}
+
+html body .background-profil .heading {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .background-profil .heading .he-content {
+  width: 60%;
+  max-width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .background-profil .heading .he-content .he-name {
+  font-size: 4rem;
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+  text-transform: uppercase;
+}
+
+html body .background-profil .heading .he-content .he-name:First-Letter {
+  color: #06304a;
+  font-size: 5rem;
+}
+
+html body .background-profil .heading .he-content .he-name .he-namelastletter {
+  color: #06304a;
+  font-size: 5rem;
+}
+
+html body .background-profil .heading .he-content .he-desc {
+  font-size: 2rem;
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+html body .background-profil .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+html body .background-profil .description .de-content {
+  max-width: 1280px;
+  padding: 20px;
+  background-color: #363D50;
+  -webkit-box-shadow: 0 0 10px #363D50;
+          box-shadow: 0 0 10px #363D50;
+  padding-bottom: 30px;
+}
+
+html body .background-profil .description .de-content .de-title {
+  font-size: 0.8rem;
+  color: #F9F8F6;
+  font-family: "Pacifico", cursive;
+  text-transform: uppercase;
+}
+
+html body .background-profil .description .de-content .de-title .de-namelastletter {
+  color: #0b7bbc;
+  font-size: 1.2rem;
+  margin-left: 2px;
+}
+
+html body .background-profil .description .de-content .de-description {
+  font-size: 1rem;
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+  font-variant: small-caps;
+}
+
+html body .knowledge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-image: url("../Asset/Work-computer.png");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+html body .knowledge .kn-content {
+  width: 60%;
+  max-width: 1280px;
+}
+
+html body .knowledge .kn-content .kn-title {
+  font-size: 3rem;
+  font-family: "Mina", sans-serif;
+  color: #F9F8F6;
+  text-align: center;
+}
+
+html body .knowledge .kn-content .kn-title .kn-num {
+  font-size: 2rem;
+  color: #B0BED5;
+}
+
+html body .knowledge .kn-content .kn-title .kn-desc {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+html body .knowledge .kn-content .kn-listing {
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+  width: 100%;
+}
+
+html body .knowledge .kn-content .kn-listing .kn-ligne {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+html body .knowledge .kn-content .kn-listing .kn-ligne .element {
+  width: 100px;
+  text-align: end;
+  text-transform: uppercase;
+}
+
+html body .knowledge .kn-content .kn-listing .kn-ligne .kn-contentprogressbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+html body .knowledge .kn-content .kn-listing .kn-ligne .kn-contentprogressbar .kn-progressbar {
+  height: 6px;
+  background-color: #338bbe;
+  margin: 22px 10px;
+}
+
+html body .bck {
+  width: 100%;
+  background-image: url(../Asset/landscape.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+html body .bck .portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+html body .bck .portfolio .po-content {
+  width: 100%;
+  max-width: 1280px;
+}
+
+html body .bck .portfolio .po-content .po-title {
+  font-size: 3rem;
+  font-family: "Mina", sans-serif;
+  color: #F9F8F6;
+  text-align: center;
+}
+
+html body .bck .portfolio .po-content .po-title .po-num {
+  font-size: 2rem;
+  color: #B0BED5;
+}
+
+html body .bck .portfolio .po-content .po-title .po-desc {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+html body .bck .portfolio .po-content .po-listing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .bck .portfolio .po-content .po-listing .card {
+  width: 30%;
+  min-width: 200px;
+}
+
+html body .bck .portfolio .po-content .po-listing .card .po-img {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+html body .bck .Experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+html body .bck .Experience .Ex-title {
+  font-size: 3rem;
+  font-family: "Mina", sans-serif;
+  color: #F9F8F6;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+html body .bck .Experience .Ex-title .kn-num {
+  font-size: 2rem;
+  color: #B0BED5;
+}
+
+html body .bck .Experience .Content {
+  width: 60%;
+  max-width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: end;
+  margin-bottom: 50px;
+}
+
+html body .bck .Experience .Content p {
+  margin: 0;
+  padding: 0;
+}
+
+html body .bck .Experience .Content .gauche {
+  width: 48%;
+  border-right: #338bbe solid 2px;
+  margin-right: 10px;
+  padding-right: 30px;
+}
+
+html body .bck .Experience .Content .droit {
+  text-align: start;
+  width: 48%;
+  margin-left: 10px;
+  padding-left: 30px;
+  border-left: #338bbe solid 2px;
+}
+
+html body .bck .Experience .Content .ctn {
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+}
+
+html body .bck .Experience .Content .Date {
+  color: #338bbe;
+  font-family: "Mina", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+html body .bck .Experience .Content .entreprise {
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+html body .bck .Experience .Content .titre {
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+html body .bck .Experience .Content img {
+  margin: 0 50px;
+  max-width: 250px;
+}
+
+html body .Contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: -50px;
+}
+
+html body .Contact .co-content {
+  width: 60%;
+  max-width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #363D50;
+  padding-bottom: 20px;
+}
+
+html body .Contact .co-content .co-text {
+  padding: 50px 0 0 50px;
+  width: 30vw;
+}
+
+html body .Contact .co-content .co-text .co-title {
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+}
+
+html body .Contact .co-content .co-text p {
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+}
+
+html body .Contact .co-content .co-text img {
+  width: 30px;
+}
+
+html body .Contact .co-content .co-callToAction {
+  text-align: center;
+  width: 70vw;
+  padding: 20px;
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+  padding: 50px 0 0 0;
+  font-size: 3vw;
+}
+
+html body .Contact .co-content .co-full {
+  padding: 50px 0 0 50px;
+  width: 100%;
+}
+
+html body .Contact .co-content .co-full .co-title {
+  font-size: 7rem;
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+}
+
+html body .Contact .co-content .co-full p {
+  font-size: 3rem;
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+}
+
+html body .Contact .co-content .co-full img {
+  width: 30px;
+}
+
+html body .Contact .co-content .co-full span {
+  color: #F9F8F6;
+  font-family: "Mina", sans-serif;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 640px) {
+  html body .Content {
+    max-width: 1280px;
+    display: block;
+    text-align: end;
+  }
+  html body .Content .kn-imgEx {
+    display: none;
+  }
+  html body .Content .gauche {
+    width: 98% !important;
+    border-right: #0b7bbc solid 2px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  html body .Content .droit {
+    text-align: start;
+    width: 98% !important;
+    margin-left: 0px;
+    padding-left: 0px;
+    border-left: #0b7bbc solid 2px;
+  }
+  html body .co-callToAction {
+    display: none;
+  }
+}
