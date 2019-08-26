@@ -9,9 +9,9 @@ var hardskill = [
 ]
 
 var portfolio = [
-    { project: "Rapport de Stage", desc: "Realisation d'un Rapport de Stage en format site Internet pour le stage chez Fleury Michon voir dans les experience pour plus de détails.", img: "RapportdeStage.png" },
-    { project: "Floxy", desc: "Front développer durant ma première Année dans une équipe de 12 développeurs nous avons crée une application utilisant une intelligence Artificiel. Montée en compétences dans les technologies liées au Frontend ", img: "StudioFloax.png" },
-    {project: "Coaching 3.0", desc: "Projet Y-Days à Ynov durant ma deuxième année, J’ai été choisit comme chef de projet mais je participe aussi a la production de l’Application Mobile pour notre client l’entreprise Act’in Coach.",img:"Act'inCoach.png"}
+    { project: "Rapport de Stage", des: "Réalisation d'un rapport de Stage en format cite Internet pour le stage chez Fleury Michon voire dans les expériences pour plus de détails.", img: "RapportdeStage.png" },
+    { project: "Floxy", des: "Front développer durant ma première Année dans une équipe de 12 développeurs nous avons créé une application utilisant une intelligence Artificielle. Montée en compétences dans les techniques liés au Frontend", img: "StudioFloax.png" },
+    {project: "Coaching 3.0", des: "Projet Y-Days à Ynov durant ma deuxième année, J’ai été choisit comme chef de projet mais je participe aussi à la production de l’application mobile pour notre client l’entreprise Ac t Coach.",img:"Act'inCoach.png"}
 ]
 
 
